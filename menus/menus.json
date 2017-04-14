@@ -1,0 +1,35 @@
+{
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "Minusk File Template",
+					"submenu": [
+						{
+							"label": "New File",
+							"command": "minusk-file-template:new-file-from-template"
+						},
+						{
+							"label": "New Template",
+							"command": "minusk-file-template:new-template"
+						},
+						{
+							"label": "Edit Template",
+							"command": "minusk-file-template:edit-template"
+						}
+					]
+				}
+			]
+		}
+	],
+	"context-menu":
+	{
+		".tree-view": [
+			{
+				"label": "New File From Template",
+				"command": "minusk-file-template:new-file"
+			}
+		]
+	}
+}

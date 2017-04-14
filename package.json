@@ -1,0 +1,25 @@
+{
+	"name": "minusk-file-template",
+	"main": "./lib/main",
+	"version": "0.0.0",
+	"description": "Generate new files from templates",
+	"keywords": [
+	],
+	"activationCommands": {
+		"atom-workspace": [
+			"minusk-file-template:new-file-from-template",
+			"minusk-file-template:new-template",
+			"minusk-file-template:edit-template"
+		]
+	},
+	"repository": "https://github.com/MinusKelvin/minusk-file-template",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+		"fs-plus": "^3.0.0",
+		"atom-select-list": "^0.1.0",
+		"fuzzaldrin": "^2.0"
+	}
+}
